@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const mongoURI = 'mongodb://localhost:27017/'
+const mongoURI = 'mongodb+srv://Yahwehson:<password>@cluster0.sefhc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 //mongoose.connect(
 //    process.env.MONGODB_CONNECTION_STRING, {
